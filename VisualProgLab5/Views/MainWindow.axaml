@@ -1,0 +1,22 @@
+<Window xmlns="https://github.com/avaloniaui"
+        MinHeight="500"
+		MinWidth="500"
+		MaxHeight="500"
+		MaxWidth="500"
+		xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:vm="using:LAB5.ViewModels"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        x:Class="VisualProgLab5.Views.MainWindow"
+        Icon="/Assets/avalonia-logo.ico"
+        Title="RegexApp">
+
+	<WrapPanel>
+		<TextBox Name="InputText" Text="{Binding Input}" Height="400" Width="250" TextWrapping="Wrap" AcceptsReturn="True"></TextBox>
+		<TextBox Name="OutputText" Text="{Binding Output}" Height="400" Width="250" AcceptsReturn="True" TextWrapping="Wrap" Focusable="False"></TextBox>
+		<Button Name="OpenButtonDialog" Background="RosyBrown" Height="50" Width="250" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Content="Open File"/>
+		<Button Name="SaveButtonDialog" Background="RosyBrown" Height="50" Width="250" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Content="Save File"/>
+		<Button Name="SetRegexButtonDialog" Background="RosyBrown" Height="50" Width="500" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Content="Set Regex"/>
+	</WrapPanel>
+
+</Window>

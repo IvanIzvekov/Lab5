@@ -1,0 +1,18 @@
+<Window xmlns="https://github.com/avaloniaui"
+		MinHeight="90"
+		MinWidth="500"
+		MaxHeight="90"
+		MaxWidth="500"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        x:Class="VisualProgLab5.Views.RegexWindow"
+        Title="RegexWindow">
+
+	<WrapPanel>
+		<TextBox Name="RegexInput" Height="30" Width="500"></TextBox>
+		<Button Name="RegexOk" Background="RosyBrown" Height="30" Width="500" VerticalContentAlignment="Center" HorizontalContentAlignment="Center">Ok</Button>
+		<Button Name="RegexCancel" Background="RosyBrown" Height="30" Width="500" VerticalContentAlignment="Center" HorizontalContentAlignment="Center">Cancel</Button>
+	</WrapPanel>
+	
+</Window>
